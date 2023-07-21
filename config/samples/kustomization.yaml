@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- accounts_v1alpha1_aws.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

@@ -1,0 +1,17 @@
+apiVersion: accounts.k8s.rubyrainbows.com/v1alpha1
+kind: Aws
+metadata:
+  labels:
+    app.kubernetes.io/name: aws
+    app.kubernetes.io/instance: aws-sample
+    app.kubernetes.io/part-of: cloud-landing-zones-controller
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: cloud-landing-zones-controller
+  name: aws-sample
+spec:
+  id: "123456789012"
+  name: "My AWS Account"
+  managementAccountId: "123456789012"
+  tags:
+    environment: "production"
+    owner: "tmuntaner"
